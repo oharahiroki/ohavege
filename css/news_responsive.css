@@ -1,0 +1,140 @@
+/*---------レスポンシブ--------*/
+@charset "utf-8";
+/*max-width 1200px*/
+@media screen and (min-width:1200px) {
+    #content {
+        max-width: 1200px;
+    }
+}
+
+/*max-width 769px*/
+@media screen and (max-width:769px) {
+    #content {
+        width: 100vw;
+    }
+
+    #news {
+        margin: 0 auto;
+        font-size: 1em;
+    }
+
+/*-------お知らせ-------*/
+    .news_img{
+        text-align: center;
+        margin-bottom: 20px;
+        width: 75%;
+        
+    }
+
+    .news_img img {
+        margin: 0 auto;
+        width: 75%;
+        
+    }
+    .text_sub,
+    .news_article2,
+    .farm_wrap,
+    .recipe,
+    .recipe_text{
+        display: block;
+    }
+    .shikaku{
+        display: none;
+    }
+    .news_text1{
+        background-color: #ffdab9;
+        box-shadow: 2px 3px 5px 0px rgba(0,0,0,.3);
+        padding-top: 10px;
+    }
+    .news_text1 p{
+        font-size:16.5px;
+    }
+    
+/*-------日記-------*/
+
+    .table {
+        width: 80%;
+        margin: auto;
+    }
+
+    .table td {
+        white-space: nowrap;
+    }
+
+    .table,
+    .farm {
+        margin-bottom: 20px;
+    }
+
+    .farm {
+        margin-left: 10px;
+    }
+    .farm1{
+        display: block;
+        margin: 0 0 20px 0;
+    }
+    
+    .news_text1,
+    .news_text2,
+    .text_wrap,
+    .text_sub,
+    .text_sub2,
+    .recipe,
+    .recipe_list,
+    .list{
+        margin: 0 auto;
+    }
+    .text_sub2{
+        font-size:16.5px;
+    }
+    
+/*    -------レシピ-------*/
+    .news_article3{
+        background-color: #fff;
+        padding: 70px 0px;
+        box-shadow: 5px 5px 10px 0 rgba(0,0,0,.3);
+        position: relative;
+    }
+    .text_wrap,
+    .recipe{
+        font-size: 16.5px;
+    }
+    .text_comment p:first-child{
+        background-color: #ffd280;
+        padding: 0;
+        
+    }
+    .recipe_howto{
+    padding: 0px;
+    border-left: none;
+    border-top:2px dotted #333;
+    width: 100%;
+}
+    .recipe_howto p{
+        padding-top: 20px;
+    }
+    .recipe_howto ol{
+       width: 70%;
+        margin: 0 auto;
+    }
+    
+    .list{
+       margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .list dl{
+        margin-bottom: 20px;
+        width: 50%;
+        margin: 0 auto;
+     
+    }
+    
+    .list dd{
+        margin-left: 50px;
+      white-space: nowrap;
+        
+    }
+
+
+}

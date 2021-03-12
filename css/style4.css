@@ -1,0 +1,139 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* cart */
+.btn-red {
+	border: 1px solid red;
+	color: red;
+	padding: 5px 10px;
+	font-size: 15px;
+}
+
+.container {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.cart-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.cart-table th,
+.cart-table td {
+	border: 1px solid #333;
+	vertical-align: middle;
+	padding: 5px 10px;
+}
+
+.cart-table th {
+	background-color: #006946;
+	color: #fff;
+}
+
+.cart-table button {
+	margin: 0;
+}
+
+.total td {
+	text-align: center;
+}
+
+.cart-btn {
+	padding: 20px;
+	text-align: center;
+}
+
+.shopping_cart h2 {
+	position: relative;
+	padding: 8px 25px 8px 25px;
+	background: none;
+	text-transform: uppercase;
+	font-size: 140%;
+	font-weight: bold;
+	border: 2px solid #333;
+	border-radius: 3em .5em 2em .5em/.4em 2em .5em 3em;
+	text-align: center;
+}
+
+.container {
+	margin: 100px auto;
+}
+
+.pay-form {
+	padding: 35px 30px;
+	z-index: -1;
+}
+
+.pay-form p {
+	text-align: center;
+}
+
+.form_bold {
+	color: #fff;
+	font-weight: 600;
+	font-size: 1.1em;
+	border-bottom: 1px solid #333;
+	padding: 7px;
+	background: #006946;
+	opacity: .9;
+}
+
+/*		ボタン*/
+.button {
+	position: relative;
+	display: inline-block;
+	padding: .8em 4em;
+	background: linear-gradient(#006946, #006946);
+	border: 1px solid #006946;
+	border-radius: 4px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.button::after {
+	position: absolute;
+	top: 3px;
+	right: 3px;
+	bottom: 3px;
+	left: 3px;
+	content: '';
+	border: 2px dashed #fff;
+	border-radius: .4em 2em .5em 3em/3em .5em 2em .5em;
+}
+
+.button:hover {
+	transform: translate(5px, 5px);
+	opacity: .8;
+	cursor: pointer;
+}
+
+.form_btn {
+	display: flex;
+	justify-content: center;
+}
+
+.form_btn .btn {
+	margin: 0 auto;
+}
+
+.btn-sm {
+	background: #ff9900;
+	padding: 5px 10px;
+	font-weight: 700;
+	color: #333;
+	font-size: .9em;
+}
+
+.cartlist p {
+	text-align: center;
+	margin: 50px 0 0 0;
+	padding: 15px;
+	font-weight: 600;
+}

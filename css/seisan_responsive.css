@@ -1,0 +1,298 @@
+@charset "utf-8";
+
+
+
+/*
+@media screen and (max-width:1280px){
+	svg{
+	display: none;
+	}
+	div:nth-child(odd) {
+	float: none;
+}
+
+div:nth-child(even) {
+	float: none;
+}
+
+div {
+	clear:none;
+}
+	
+	#kousaku {
+	margin-right: 0px;
+		text-align: center;
+}
+
+#kousaku > img {
+	margin-left: 0px;
+	width: 300px;
+	margin-top: 10px;
+	height: 300px;
+	border-radius: 50%;
+}
+
+#taneue {
+	margin-top: -0px;
+	margin-left: 0px;
+	text-align: center;
+}
+
+#taneue > img {
+	margin-left: 0px;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+}
+
+#seiiku {
+	margin-right: 0px;
+	text-align: center;
+}
+
+#seiiku > img {
+	margin-left: 0px;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+}
+
+#shukaku {
+	margin-left: 0px;
+	margin-top: 0px;
+	text-align: center;
+}
+
+#shukaku > img {
+	margin-left: 0px;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+}
+
+#shuxtuka {
+	margin-left: 0px;
+	text-align: center;
+
+}
+
+#shuxtuka > img {
+	margin-left: 0px;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+}
+
+#hanbai {
+	margin-top: 0px;
+	margin-left: 0px;
+	text-align: center;
+}
+
+#hanbai > img {
+	margin-left: 40px;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+}
+
+h2 {
+	text-align: center;
+}
+
+#kousaku p {
+	text-align: center;
+	margin-right: 0px;
+}
+
+#seiiku p {
+	text-align: center;
+}
+
+#shuxtuka p {
+	text-align: center;
+	margin-right: 0px;
+}
+
+#taneue p {
+	text-align: center;
+}
+
+#shukaku p {
+	text-align: center;
+	margin-left: 0px;
+}
+
+#hanbai p {
+	text-align: center;
+	margin-left: 0px;
+
+}
+	
+}
+
+*/
+
+/*768～1250px*/
+
+@media screen and (min-width: 100px) and (max-width: 1200px){
+	svg{
+		display: none;
+	}
+	div:nth-child(odd) {
+	float: right;
+}
+
+div:nth-child(even) {
+	float: left;
+}
+
+div {
+	clear: both;
+}
+
+
+
+#kousaku {
+	margin-right: 0px;
+}
+
+#kousaku > img {
+	width: 300px;
+/*	margin-top: 10px;*/
+	height: 300px;
+	border-radius: 50%;
+}
+
+#taneue {
+
+}
+
+#taneue > img {
+	margin-left: 0px;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+}
+
+#seiiku {
+	margin-right: 0px;
+}
+
+#seiiku > img {
+	margin-left: 0px;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+}
+
+#shukaku {
+	margin-left: 0px;
+	margin-top: -0px;
+}
+
+#shukaku > img {
+	margin-left: 0px;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+}
+
+#shuxtuka {
+	margin-left: 0px;
+
+}
+
+#shuxtuka > img {
+	margin-left: 0px;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+}
+
+#hanbai {
+	
+}
+
+#hanbai > img {
+	margin-left: 0px;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+}
+
+h2 {
+	text-align: center;
+}
+
+#kousaku p {
+	text-align:center;
+}
+
+#seiiku p {
+	text-align:center;
+}
+
+#shuxtuka p {
+	text-align:center;
+}
+
+#taneue p {
+	text-align: center;
+}
+
+#shukaku p {
+	text-align: center;
+	
+}
+
+#hanbai p {
+	text-align: center
+}
+	#container2{
+		font-size: 16px;
+		width: 100%;
+	}
+	.shuxtukabr{
+	display:none;
+}
+	.footer_address{
+		font-size: 0.8em;
+		line-height:20px;
+		margin: 20px;
+		
+	}
+	.footer_nav li{
+		width:250px;
+		height: 2.5em;
+		line-height: 2.5em;
+		font-size: .95em;
+	}
+	#copyright{
+		width: 100%;
+	}
+	.footer_nav{
+		width: 20%;
+		font-size: 0.7em;
+		padding: 0;
+	}
+	.footer_sns ul{
+		bottom:30px;
+		padding: 0;
+	}
+	footer{
+		flex-wrap: wrap;;
+	}
+	div:nth-child(odd) {
+	float: none;
+}
+
+div:nth-child(even) {
+	float: none;
+}
+	#container{
+		text-align: center;
+	}
+	#container2 div{
+		width: auto;
+	}

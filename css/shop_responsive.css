@@ -1,0 +1,56 @@
+@charset"utf-8";
+
+@media screen and (max-width:768px) {
+
+    .sliderArea {
+        overflow: hidden;
+        margin-top: 70px;
+    }
+
+    #shop_main {
+        display: block;
+    }
+
+    #sub_nav ul {
+        display: flex;
+        width: 100%;
+        height: auto;
+        justify-content: space-between;
+    }
+
+    #sub_nav ul li {
+        width: 25%;
+        transition: none;
+
+    }
+
+    #sub_nav ul li a {
+        width: 100%;
+        font-size: 13px;
+        transition: none;
+        margin: auto;
+    }
+
+    #sub_nav ul li a img {
+        height: auto;
+        width: auto;
+    }
+
+
+    .slideshow {
+        width: 100%;
+    }
+
+    #sub_nav ul li:hover {
+        background-color: #006946;
+        width: 25%;
+        height: auto;
+        border-radius: 50%;
+    }
+
+    .sec_shop p {
+        width: 95vw;
+        max-width: 280px;
+    }
+
+}
